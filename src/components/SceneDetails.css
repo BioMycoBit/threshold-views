@@ -1,0 +1,88 @@
+.scene-details {
+  padding: 20px;
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.scene-details-container {
+  font-size: 16px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.scene-details-section {
+  margin-bottom: 24px;
+}
+
+.scene-details-section h3 {
+  margin-bottom: 12px;
+  color: var(--primary-color);
+  font-size: 1.2em;
+}
+
+.scene-prompt {
+  line-height: 1.6;
+  margin-bottom: 16px;
+  white-space: pre-wrap;
+}
+
+.audio-details p {
+  margin: 8px 0;
+}
+
+.source-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.source-link:hover {
+  opacity: 0.8;
+}
+
+.scene-details.error {
+  color: var(--error-color, #ff4444);
+  text-align: center;
+  padding: 20px;
+}
+
+.scene-details.loading {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-color-secondary, #666);
+}
+
+.scene-description h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: var(--primary-color, #71D3D3);
+}
+
+.scene-description p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.scene-audio h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: var(--primary-color, #71D3D3);
+}
+
+.audio-details {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.audio-details dt {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.audio-details dd {
+  margin: 0 0 16px 0;
+} 
